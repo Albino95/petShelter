@@ -1,0 +1,74 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-around;
+    border: 2px solid black;
+
+}
+
+.adopt {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    align-self: center;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 90%;
+    justify-content: space-evenly;
+}
+    .headerlink {
+        margin-left: 800px;
+    }
+
+.mainbar {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    
+}
+    .mainbarelement{
+        padding-right: 10px;
+        border-right: 2px solid black;
+    }
+
+.commandbox {
+    border: 2px solid lightslategray;
+    margin: 20px;
+}
+
+.commandrow {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    border-bottom: 2px solid darkslategray ;
+}
+.form {
+    margin-top: 100px;
+    margin-left: 150px;
+    border: 2px solid lightslategray;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.like {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.edit {
+    color: white;
+    background-color: lightblue;
+}
