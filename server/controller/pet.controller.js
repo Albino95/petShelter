@@ -1,5 +1,5 @@
 const { request } = require('http');
-const Pet = require('../models/Pet.models');
+const Pet = require('../models/pet.models');
 
 module.exports = {
     getAllPets: ((req, res) => {
