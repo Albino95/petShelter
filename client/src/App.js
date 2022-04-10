@@ -1,8 +1,8 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import AddPet from './components/AddPet';
-import AllPets from "./components/AllPets"
-import EditPet from './components/EditPet';
-import OnePet from './components/OnePet'
+import AddPirate from './components/AddPirate';
+import AllPirates from "./components/AllPirates"
+import OnePirate from './components/OnePirate';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 function App() {
@@ -10,10 +10,9 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <Routes>
-        <Route  exact path = "/" default element={<AllPets />} />
-        <Route  exact path = "/pets/new" element = {<AddPet />} />
-        <Route  exact path = "/pets/edit/:id/" element = {<EditPet />} />
-        <Route  exact path = "/pets/:id/" element = {<OnePet />} />
+        <Route  exact path = "/" default element={<AllPirates />} />
+        <Route  exact path = "/pirates/new" element = {<AddPirate />} />
+        <Route  exact path = "/pirates/:id/" element = {<OnePirate />} />
       </Routes>
     </div>
     </BrowserRouter>

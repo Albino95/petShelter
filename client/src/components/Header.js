@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import styles from './style.module.css'
 
 const Header = (props) => {
-    const {pageObjective} = props;
+    const {pageObjective, pageHeader} = props;
+
     return (
         <header className={styles.header}>
-            <h1>Pet Shelter</h1>
+            <h1>{pageHeader}</h1>
             <h3>{pageObjective}</h3>
 
         </header> 

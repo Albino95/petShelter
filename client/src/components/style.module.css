@@ -1,26 +1,48 @@
-.list {
-    display: flex;
-    flex-direction: row;
-    margin: 30px;
-    justify-content: space-around;
-    border: 2px solid black;
+.body {
+    background-color: orange;
 
 }
 
-.adopt {
+.add {
+    color: white;
+    background-color: blue;
+    width: 10%;
+    height: 50px;
+    margin-left: 400px;
+
+}
+
+.listIMG {
+    width: 20%;
+    height: 100%;
+}
+
+.crew {
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    margin-left: 900px;
+}
+
+.walkPlank {
     background-color: red;
     color: white;
-    width: 100px;
     height: 30px;
-    align-self: center;
+}
+
+.viewPirate {
+    color: white;
+    background-color: blue;
 }
 
 
 .header {
     display: flex;
     flex-direction: column;
+    background-color: darkgoldenrod;
     padding: 20px;
-    width: 90%;
+    width: 100%;
     justify-content: space-evenly;
 }
     .headerlink {
@@ -46,29 +68,49 @@
 .commandrow {
     display: flex;
     justify-content: space-around;
-    background-color: lightgray;
+    background-color: brown;
     border-bottom: 2px solid darkslategray ;
 }
 .form {
-    margin-top: 100px;
-    margin-left: 150px;
+    
     border: 2px solid lightslategray;
-    width: 700px;
-    height: 200px;
+    width: 70%;
+    height: auto;
     display: flex;
+    margin: auto;
     flex-direction: column;
     justify-content: space-around;
     padding: 40px;
+    margin-top: 100px;
+    text-align: center;
 }
 
-.like {
-    background-color: green;
-    color: white;
-    width: 100px;
-    height: 30px;
+.about {
+    justify-self: flex-end;
+    margin-left: 400px;
+    margin-top: 100px;
+    font-size: larger;
+    border: 2px solid darkslategray;
+    padding: 100px
 }
 
-.edit {
-    color: white;
-    background-color: lightblue;
+.center {
+    text-align: center;
+    font-size: 70px
+
+}
+
+.info {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.containter {
+    display: flex;
+    
+}
+
+.image {
+    width: 200px;
+    height: 200px
 }
